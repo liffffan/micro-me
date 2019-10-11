@@ -1,6 +1,9 @@
-syntax = "proto3";
+
 
 // protoc --proto_path=. --micro_out=. --go_out=. hello.proto
+
+syntax = "proto3";
+
 service Greeter {
     rpc Hello(HelloRequest) returns (HelloResponse) {}
 }
